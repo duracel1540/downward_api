@@ -6,7 +6,7 @@ metadata:
 spec:
   containers:
     - name: flask-app
-      image: ghcr.io/duracel1540/downward_api:latest
+      image: ghcr.io/duracel1540/downward-api:latest
       ports:
         - containerPort: 5000
       env:
